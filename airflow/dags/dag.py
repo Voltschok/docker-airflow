@@ -73,7 +73,7 @@ with DAG(dag_id='dag',
     # Создадим задачу которая будет отправлять файл на почту
     email_op = EmailOperator(
         task_id='send_email',
-        to="a_wolkov@mail.ru",
+        to="stepikairflowcourse@yandex.ru",
         subject="Test Email Please Ignore",
         html_content=None,
         files=['/tmp/file_agg.csv']
